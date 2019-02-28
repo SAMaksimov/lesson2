@@ -93,41 +93,4 @@ let appData = {
     }
 }
 
-// chooseExpenses();
-// chooseOptExpenses();
-// detectDayBudget();
-// detectLevel();
-// checkSavings();
-// console.log(appData);
-// appData.chooseIncome();
-
-appData = {
-    income: ['marketing', 'sales', 'anything else'],
-    budget: money,
-    
-}
-
-
-let string1 = '';
-
-newFunction();
-
-document.write (string1);
-
-// console.log('Наша программа включает в себя данные: ')
-
-// let a;
-// for(a in appData){
-//     console.log(a);
-//     console.log(appData);
-// }
-
-//console.log(appData.income)
-function newFunction() {
-    let a;
-    string1 += "Способы доп. заработка: ";
-    for (a in appData) {
-        string1 += '<br />' + a + ': ' + appData[a];
-    }
-}
 
