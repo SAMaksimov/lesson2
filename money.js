@@ -2,7 +2,7 @@
 
 let money, time;
 
-function start () {
+function startAll () {
     money = +prompt("Ваш бюджет на месяц?", '60000');
     time = prompt("Введите дату в формате YYYY-MM-DD", '19987-01-01');
     while(isNaN(money) || money == "" || money == null) {
@@ -13,7 +13,7 @@ function start () {
     }
 }
 
-// start();
+//startAll();
 
 let appData = {
     budget: money,
